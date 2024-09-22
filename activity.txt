@@ -1,1 +1,14 @@
 install Live server vscode extension
+
+
+Create and ordering app with modules
+
+should perform the following
+
+add("Choco sundae - 2, burger - 3")
+add("chicken - 4")
+remove("burger - 1")
+add("spaghetti - 2")
+list()
+modify("burger, burger steak")
+remove("burger - 1") - prompt ("Not Found")
