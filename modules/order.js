@@ -20,7 +20,14 @@ export class Order {
     }
 
     search(item) {
-        return this.items.hasOwnProperty(item);
+        // return this.items.hasOwnProperty(item);
+        return item in this.items;
+        // for(let key in this.items){
+        //     if(key == item){
+        //         return true;
+        //     }
+        // }
+        // return false;
     }
 
     remove(removeItem){
