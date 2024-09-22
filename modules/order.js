@@ -58,6 +58,14 @@ export class Order {
 
     list(){
         console.log(this.items)
+        // if (Object.keys(this.items).length === 0) {
+        //     console.log("Order is empty");
+        // } else {
+        //     console.log("Current Order:");
+        //     for (const [name, quantity] of Object.entries(this.items)) {
+        //         console.log(`${name} - ${quantity}`);
+        //     }
+        // }
     }
 
 }
