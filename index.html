@@ -1,4 +1,18 @@
 <html>
-  <body></body>
-  <script type="module" src="app.js"></script>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <form action="/app.js" method="get" id="form">
+        <input required id="itemName" />
+        <button id="add-item" onclick="addItem()">ADD</button>
+        <button id="remove-item" onclick="removeItem()">REMOVE</button>
+        <button id="modify-item" onclick="modifyItem()">MODIFY</button>
+      </form>
+      <div id="item-lists"></div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
 </html>
